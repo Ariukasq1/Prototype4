@@ -29,7 +29,7 @@ class SuccessStory extends Component {
   }
 
   renderContent = (post) => {
-    const url = post.content.rendered.length > 0 ? "success-story?slug=/" + post.slug : "#";
+    const url = post.content.rendered.length > 0 ? "success-story-detail?slug=/" + post.slug : "#";
 
     return (
       <div key={post.id} className={`isotop-item ${this.renderCategory(getData(post._embedded, 'categories'))}`}>
