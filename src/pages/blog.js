@@ -96,7 +96,7 @@ class Blog extends Component {
                         </Disqus.CommentCount>
                       </span>
                       <h5 className="blog-title-one title">
-                        <Link href={"blog/" + post.slug}>
+                        <Link href={"blog-detail?slug=/" + post.slug}>
                           <a>{post.title.rendered}</a>
                         </Link>
                       </h5>
